@@ -1,0 +1,246 @@
+body {
+  background-color: honeydew;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/*   common  */
+#header {
+  background-color: aqua;
+}
+
+#logo {
+  height: 120px;
+  width: 120px;
+  float: left;
+  padding: 30px 0px 0px 0px;
+  margin-left: 34px;
+}
+
+#header h1 {
+  padding: 25px 0px 0px 470px;
+  font-size: 50px;
+}
+
+#header h3 {
+  position: relative;
+  font-size: 25px;
+  top: -20px;
+  left: 460px;
+  font-weight: lighter;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: blue;
+}
+
+footer {
+  background-color: goldenrod;
+  padding: 4px;
+}
+
+footer p {
+  font-size: 20px;
+  display: inline-block;
+}
+
+#copyright {
+  padding-left: 50px;
+}
+
+
+
+/*      index.html     */
+.image-roller {
+  text-align: center;
+}
+
+.slider img {
+  max-height: 500px;
+  width: 70%;
+}
+
+.myslides {
+  display: none;
+}
+
+.about {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+table p {
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+table p span {
+  color: orange;
+  font-size: 40px;
+
+}
+
+td {
+  font-size: larger;
+  text-align: justify;
+  width: 30%;
+  padding: 0px 30px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+td:first-child {
+  border-left: 1px solid;
+}
+
+td div::first-line {
+  text-indent: 30px;
+}
+
+#small {
+  position: relative;
+  top: -75px;
+}
+
+#member {
+  text-decoration: none;
+  padding: 15px;
+  background-color: rgb(35, 35, 216);
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+
+
+
+
+/*   gallery.html        */
+
+
+.gallery {
+  max-width: 600px;
+  max-height: 350px;
+  border: 1px solid;
+  margin: 5px;
+
+}
+
+
+
+
+
+/*      regis.html       */
+
+#registration {
+  font-size: 30px;
+  text-decoration: underline;
+}
+#reg-detail{
+  font-weight: bold;
+  font-size: 25px;
+}
+#ppp{
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*      login.html       */
+
+
+
+.login {
+  font-size: 20px;
+}
+
+.container {
+  padding: 25px;
+  background-color: lightblue;
+  width: 35%;
+  margin: 0px auto;
+
+}
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 15px 20px;
+  display: inline-block;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #4CAF50;
+  width: 30%;
+  padding: 15px;
+  margin: 10px 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+#forget {
+  float: right;
+  padding-right: 30px;
+}
+
+
+
+
+
+/*        contact.html           */
+
+#Gmap {
+  width: 900px;
+  height: 500px;
+  border: 0;
+
+}
+
+.contact {
+  line-height: 2;
+}
+
+.contact th {
+  font-size: 25px;
+  text-align: center;
+}
+
+.wrkhrs {
+  list-style-type: none;
+  text-align: justify;
+}
